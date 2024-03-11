@@ -13,10 +13,10 @@
   background-position: center;
   text-align: center;
   padding: 3%;}
-  
+
 #card{
   padding: 5%;
-  background-image: url("img/card-image.png");
+  background-image: url("img/afr.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -61,10 +61,11 @@
 }
 
 .p-title{
-  margin-top: 3%;
+  margin-top: 35%;
   margin-bottom: 5%;
-  color: #fff;
+  color: #000;
 }
+
 
 .btn-warning{
   font-weight: bold;
@@ -112,7 +113,7 @@
     }
 
   .icon{
-    color: #0174BE;
+    color: #FFB000;
   }
 
   .news-icon{
