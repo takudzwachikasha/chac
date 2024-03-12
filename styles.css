@@ -46,7 +46,11 @@
   background-position:center;
   text-align: center; */
 }
-
+body{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 .test{
   color: #964B00;
 }
@@ -61,12 +65,26 @@
 }
 
 .p-title{
-  margin-top: 35%;
+  margin-top: 38%;
   margin-bottom: 5%;
   color: #000;
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 
+.body{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 
+.announcements-header{
+text-align: center;
+margin-bottom: 1.5rem;
+}
 .btn-warning{
   font-weight: bold;
 }
@@ -115,6 +133,21 @@
   .icon{
     color: #FFB000;
   }
+
+  .news{
+    padding:1rem;
+  background: linear-gradient(to right, #FDEEDC, #FFF9B0);
+  }
+
+.page-header{
+  color: white;
+  margin: 100px 0 40px 0;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
 
   .news-icon{
     margin-top: 20%;
