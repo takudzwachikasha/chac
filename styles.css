@@ -51,6 +51,11 @@ body{
   font-weight: 400;
   font-style: normal;
 }
+
+.nav-item{
+  margin: 10px;
+  font-size: 1.2rem;
+}
 .test{
   color: #964B00;
 }
@@ -124,6 +129,7 @@ margin-bottom: 1.5rem;
       border-radius: 30px;
       overflow: hidden;
       margin-bottom: auto;
+      opacity: 0.85;
     }
 
     .card:hover {
