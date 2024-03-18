@@ -5,7 +5,13 @@
   background-position: center;
   text-align: center;
   padding: 3%;
+  
 }
+
+.header-btn{
+  margin-top: 10rem;
+}
+
 .header {
   background-image: url("img/afr.jpg");
   background-size: cover;
@@ -70,7 +76,7 @@ body{
 }
 
 .p-title{
-  margin-top: 38%;
+  margin-top: 28%;
   margin-bottom: 5%;
   color: #000;
   font-size: 3rem;
