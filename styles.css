@@ -11,13 +11,24 @@
 .header-btn {
   margin-top: 10rem;
 }
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
 
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
 .header {
   background: linear-gradient(to right, #93A9F9, #031863);
   text-align: center;
-  padding: 3%;
+  padding: 0.01%;
+  height: 12rem;
 }
-
+div .btn{
+  font-size: 20px;
+  font-weight:bold;
+}
 #card {
   padding: 5%;
   /* background-image: url("img/afr.jpg"); */
@@ -53,7 +64,11 @@ body {
   font-weight: 400;
   font-style: normal;
   background-color: #F8F8F8;
+  text-align: justify;
 }
+
+.table tbody tr {
+    height: 100px;}
 
 .table {
   border-collapse: collapse;
@@ -61,7 +76,7 @@ body {
 
 .table td, .table th {
   border: none;
-  padding: 20px;
+  padding: 40px;
   /* Adjust the padding to increase row height */
 }
 

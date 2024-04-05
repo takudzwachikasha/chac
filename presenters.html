@@ -38,46 +38,59 @@
     <!-- Container wrapper -->
   </nav>
   <!-- Navbar -->
-  <nav class="navbar sticky-top  navbar-expand-lg  navbar-light bg-white" style=" height: 6rem;">
-  <div class="container-fluid">
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-  </button>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top " style="height:8rem;font-weight:bold;">
+      <div class="container-fluid" style="font-weight:bold;" style="background-color:#fff;">
 
-  <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
-    <ul class="navbar-nav m-auto mb-2 mb-lg-0" style="color: #000;">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="about.html" style="color: #000;font-weight:bold;">About CHAC</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link " aria-current="page" href="abstract.html" style="color: #000;font-weight:bold;">Abstracts</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link " aria-current="page" href="presenters.html" style="color: #000;font-weight:bold;">Presenters</a>
-      </li>
-      <li class="nav-item">
-        <a class="navbar-brand" href="index.html" style="height: 1rem;"><img src="img/CHAC.png" alt=""></a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style="color: #000;font-weight:bold;">Attendees</a>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-     <li><a class="dropdown-item" href="registration.html" style="color: #000;font-weight:bold;">Register</a></li>
-     <li><a class="dropdown-item" href="attendees.html"style="color: #000;font-weight:bold;">Who can Attend</a></li>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+              <div class="navbar-nav m-auto">
+                  <div class="dropdown" >
+                      <a class="btn" type="button" id="dropdownMenuButton" href="about.html" data-mdb-toggle="dropdown" aria-expanded="false"> About CHAC</a>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <li><a class="dropdown-item" href="important_dates.html">Important Dates and Deadlines</a></li>
+                            <li><a class="dropdown-item" href="scientific_committee.html">Scientific Program Committee</a></li>
+                          <li><a class="dropdown-item" href="funding.html">Funding and Grant Support</a></li>
+                          <li><a class="dropdown-item disabled" href="#">Policies, Websites and Copyrights </a></li>
+                      </ul>
+                  </div>
+                  <div class="dropdown">
+                      <a class="btn" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> Abstracts </a>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <li><a class="dropdown-item" href="abstract.html">Call for Abstracts</a></li>
+                          <li><a class="dropdown-item" href="abstract_guidelines.html">Abstract Submission Guidelines</a></li>
+                          <li><a class="dropdown-item" href="case_study_guidelines.html">Case Study Submission Guidelines</a></li>
+                      </ul>
+                  </div>
+                  <div class="dropdown">
+                      <a class="btn" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> Presenters</a>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <li><a class="dropdown-item" href="presenters.html">Oral Presentation Guidelines</a></li>
+                          <li><a class="dropdown-item" href="poster_presentation.html">Poster Presentation Guidelines</a></li>
+                          <li><a class="dropdown-item disabled" href="#">Panel Presentation Guidelines</a></li>
+                          <li><a class="dropdown-item disabled" href="#">Keynote Speakers</a></li>
+                      </ul>
+                  </div>
+                  <a class="navbar-brand" href="index.html" style="height: 1rem;"><img src="img/CHAC.png" alt=""></a>
+                  <div class="dropdown">
+                      <a class="btn" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"> Attendees </a>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <li><a class="dropdown-item" href="registration.html">Registration</a></li>
+                          <li><a class="dropdown-item" href="attendees.html">Who Can Attend</a></li>
+                      </ul>
+                  </div>
+                  <div class="dropdown">
+                      <a class="btn" type="button" href="scholarships.html" >Scholarships </a>
 
-   </ul>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" aria-current="page" href="scholarships.html" style="color: #000;font-weight:bold;">Scholarships</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" aria-current="page" href="programs.html" style="color: #000;font-weight:bold;">Programs</a>
-      </li>
-    </ul>
+                  </div>
+                   <div class="dropdown">
+                      <a class="btn" type="button" href="program.html" >Program </a>
 
-
-  </div>
-  </div>
-
+                  </div>
+              </div>
+          </div>
+      </div>
   </nav>
 
 
@@ -88,17 +101,18 @@
 </section>
 
 <div class="container">
-      
+
 
     </div>
 <section class="guidelines" style="padding : 20px 50px 0 50px;">
 <div class="card-header">
-        <h2>Presentation Submissions</h2>
+
       </div>
    <div class="container">
-    <h6>The deadline for submitting PowerPoint presentations is September 30, 2024.</h6>
+     <h3>Presentation Submissions</h3>
+    The deadline for submitting PowerPoint presentations is <strong>September 30, 2024.</strong>
 
-    <h2>Oral Presentations Guidelines</h2>
+    <h3>Oral Presentations Guidelines</h3>
     <p>
     <ol>
       <li>Oral presentations are scheduled for a duration of 10 minutes, followed by a 5-minute session for questions and answers.</li>
@@ -112,14 +126,14 @@
         <div class="collapse" id="collapseExample">
           <div class="card card-body">
 
-            <h2>Poster presentation guidelines</h2>
+            <h3>Poster presentation guidelines</h3>
 
             <ol>
               <li>
                 Poster Size and Format
                 <ul>
-                  <li>Design your poster to fit within the specified dimensions provided by the conference organizers. (size A0)</li>
-                  <li>Write your abstract number as shown in the sample poster. </li>
+                  <li>Design your poster to fit within the specified dimensions provided by the conference organizers(size A0) <strong>(841mm by 1189mm).</strong> </li>
+                  <li>Write your abstract number as shown in the sample poster.<a href="#">Click Here</a> </li>
                   <li>Ensure the font size is legible from a reasonable distance.</li>
                 </ul>
               </li>
@@ -160,11 +174,7 @@
         </div>
       </li>
     </ol>
-    <div class="d-grid gap-2 col-6 mx-auto">
 
-      <a href="#" class="btn " style="background-color:#007F73;color:#fff;">Panel Presentations Guidelines </a> <a href="#" class="btn " style="background-color:#007F73;color:#fff;">Keynote Speakers</a>
-
-    </div>
     </p>
   </div>
 </section>
