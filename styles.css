@@ -5,46 +5,41 @@
   background-position: center;
   text-align: center;
   padding: 3%;
-  
+  height: 295px;
 }
 
-.header-btn{
+.header-btn {
   margin-top: 10rem;
 }
 
 .header {
-  background-image: url("img/afr.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: linear-gradient(to right, #93A9F9, #031863);
   text-align: center;
-  padding: 3%;}
-
-#card{
-  padding: 5%;
-  background-image: url("img/afr.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  text-align: center;
-
-  color: #964B00;
-
+  padding: 3%;
 }
 
-#faq{
+#card {
+  padding: 5%;
+  /* background-image: url("img/afr.jpg"); */
+  background: linear-gradient(to right, #93A9F9, #031863);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: #964B00;
+}
+
+#faq {
   padding: 6%;
   background-image: url("img/faq-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   text-align: center;
-
 }
 
-#footer{
+#footer {
   text-align: center;
-
   /* padding: 5%;
   background-image: url("img/footer.png");
   background-size: cover;
@@ -52,30 +47,46 @@
   background-position:center;
   text-align: center; */
 }
-body{
+
+body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  background-color: #F8F8F8;
 }
 
-.nav-item{
+.table {
+  border-collapse: collapse;
+}
+
+.table td, .table th {
+  border: none;
+  padding: 20px;
+  /* Adjust the padding to increase row height */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f8f9fa;
+}
+
+.nav-item {
   margin: 10px;
   font-size: 1.2rem;
 }
-.test{
+
+.test {
   color: #964B00;
 }
 
 /* .header-title{
   margin-top: 0%;
 } */
-
-.header-logo{
+.header-logo {
   height: 40%;
   width: 40%;
 }
 
-.p-title{
+.p-title {
   margin-top: 28%;
   margin-bottom: 5%;
   color: #000;
@@ -86,72 +97,113 @@ body{
   font-style: normal;
 }
 
-.body{
+.body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
 
-.announcements-header{
-text-align: center;
-margin-bottom: 1.5rem;
+.card-title, .card-text {
+  color: #B80000;
 }
-.btn-warning{
+
+.bg-custom {
+  background-color: #B80000;
+}
+
+.text-custom {
+  color: white;
+}
+
+.bg-secondary-custom {
+  background-color: #A9A9A9;
+}
+
+.announcements-header {
+  text-align: left;
+  margin-left: 6px;
+  margin-bottom: 2rem;
+}
+
+.btn-warning {
   font-weight: bold;
 }
 
-.faq-inner{
+.faq-inner {
   height: 40%;
   width: 40%
 }
 
 .rule-1 {
   margin: auto;
-  width: 50%;
-  border: none; /* Remove the default border */
-  height: 4px; /* Set the desired height for the horizontal rule */
-  background-color: black; /* Set the color to white */
+  width: 15%;
+  border: none;
+margin-top: 2rem;
+  height: 2px;
+  /* Set the desired height for the horizontal rule */
+  background-color: #fff;
+  /* Set the color to white */
 }
-
+.footer-links{
+  font-size: 2px;
+}
 .rule-2 {
   margin: auto;
-  border: none; /* Remove the default border */
-  height: 4px; /* Set the desired height for the horizontal rule */
-  background-color: black; /* Set the color to white */
+  border: none;
+  /* Remove the default border */
+  height: 4px;
+  /* Set the desired height for the horizontal rule */
+  background-color: black;
+  /* Set the color to white */
 }
-
+.footer-text{
+  font-size: 12px;
+  margin-top: 2rem;
+}
+.footer-head{
+  margin-top: 2%;
+}
 .faq-tags {
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
   margin-left: 20px;
   margin-right: 20px;
-  color: black;
-  transition: color 0.3s ease; /* Add a smooth transition for color change */
+  color: #fff;
+  transition: color 0.3s ease;
+  /* Add a smooth transition for color change */
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.form-label {
+  font-weight: bold;
 }
 
 .card {
-      transition: transform 0.3s ease-in-out;
-      border-radius: 30px;
-      overflow: hidden;
-      margin-bottom: auto;
-      opacity: 0.85;
-    }
+  /* transition: transform 0.3s ease-in-out; */
+  border-radius: none;
+  overflow: hidden;
+  margin-bottom: auto;
+  opacity: 0.95;
+  background-color: rgba(255, 255, 255, 1);
+}
 
-    .card:hover {
+/* .card:hover {
       transform: translate(0, -20px);
-    }
+    } */
+.icon {
+  color: #B80000;
+}
 
-  .icon{
-    color: #FFB000;
-  }
+.news {
+  padding: 1rem;
+  background: #fff;
+}
 
-  .news{
-    padding:1rem;
-  background: linear-gradient(to right, #FDEEDC, #FFF9B0);
-  }
-
-.page-header{
+.page-header {
   color: white;
   margin: 100px 0 40px 0;
   font-size: 2.5rem;
@@ -161,25 +213,34 @@ margin-bottom: 1.5rem;
   font-style: normal;
 }
 
-  .news-icon{
-    margin-top: 20%;
-  }
-
-
-.faq-tags:hover {
-  color: brown; /* Change the color to brown on hover */
+.news-icon {
+  margin-top: 20%;
 }
 
-.press-logo{
+.faq-tags:hover {
+  color: #B80000;
+  /* Change the color to brown on hover */
+}
+
+.press-logo {
   width: 15%;
   margin: 20px 20px 50px;
 }
 
-.faq-p{
+.faq-p {
   font-size: 10px;
 }
 
-.footer{
+.footer {}
 
+.navbar-toggler {
+      background-color: #fff; /* Set background color of toggler */
+    }
 
-}
+.dropdown-menu {
+      background-color: #fff; /* Set background color of dropdown menu */
+    }
+
+    .dropdown-item {
+      color: #000 !important; /* Set text color of dropdown items */
+    }

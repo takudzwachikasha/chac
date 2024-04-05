@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="img/fav.png">
-    <title>Registration Information</title>
+    <title>Scholarship Application</title>
 
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/b047e1ffe9.js" crossorigin="anonymous"></script>
@@ -13,7 +13,7 @@
 <body class="body">
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light " style="background-color:#B80000;">
+ <nav class="navbar navbar-expand-lg navbar-light " style="background-color:#B80000;">
     <!-- Container wrapper -->
     <div class="container-fluid">
 
@@ -84,29 +84,53 @@
 <section class="header">
 
 
-<h1 class="page-header">Event Registration</h1>
+<h1 class="page-header">Scholarship Application</h1>
 </section>
 
-<div class="container" style="margin:50px;">
-  <h1>Requirements</h1>
-  <p><span>Registration opens on April 15, 2024 <em>(Limited Spaces Available)</em></span>
+<section class="requirements" style="padding : 50px;"></section>
+<div class="container" style="margin:0 50px 50px 50px;">
 
-  <br><br><h3>Registration fee</h3>
-  Each participant is required to pay a registration fee of 210 USD. This fee includes access to teas, lunch, refreshments, and conference materials for the entire duration of the conference, which will take place from October 29 to 31, 2024.<br><br>
-    <h3>How to pay</h3>
-  To deposit your registration  <a href="#">Click Here</a> <br><br>
-  <h3>Accommodation</h3>
-  Please note that it is your responsibility to make your own accommodation arrangements. If you would like to stay at Cresta Lodge Msasa, which we highly recommend for its convenience, please click the following link to proceed with your booking:
-  <a href="www.crestahotels.com/hotels/zimbabwe/cresta-lodge-harare">Click here</a>
-  </p>
-        </div>
-        <div class="d-grid gap-2 col-6 mx-auto">
 
-        <a href="inner_registration.html" type="submit" class="btn btn-lg" style="background-color:#007F73; color:#fff; ">Register</a>
-        <br><br>
-        </div>
+    <h1>Apply Here</h1>
+    <form action="register.php" method="POST" style="padding:1% 8% 1% 8%;">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control col-lg-6" id="name" name="name" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="surname" class="form-label">Nationality</label>
+        <input type="text" class="form-control" id="surname" name="surname" required>
+      </div>
+      <div class="mb-3">
+        <label for="organization" class="form-label">Abstract Number</label>
+        <input type="text" class="form-control" id="organization" name="organization" required>
+      </div>
+      <div class="mb-3">
+        <label for="country" class="form-label">Country</label>
+        <input type="text" class="form-control" id="country" name="country" required>
+      </div>
+      <div class="mb-3">
+        <label for="track" class="form-label">Track</label>
+        <select class="form-select" id="track" name="track" required>
+          <option value="Track 1"> Pathophysiology and biological mechanisms</option>
+          <option value="Track 2"> Environmental exposures and climate-health epidemiology</option>
+          <option value="Track 3"> Adaptation interventions and building climate resilient health systems</option>
+          <option value="Track 4">  Mitigation interventions</option>
+          <option value="Track 5"> Ethics and climate research equity</option>
+        </select>
+      </div>
+      <div class="d-grid gap-2 col-6 mx-auto" style="margin-top:10px;">
+      <button type="submit" class="btn btn-warning btn-lg" style="text-align:center;background-color:#eb9014;font-weight:bold;">Submit</button>
+    </div>
     </form>
   </div>
+
+
 
 
   <footer class=" text-center text-white" style="background-color:#222831;">
@@ -197,7 +221,6 @@ Address: Number 4 Bath road, Belgravia, Harare, Zimbabwe  Office: +263242333393
     <!-- Copyright -->
 
   </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
   </body>
