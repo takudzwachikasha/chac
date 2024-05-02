@@ -116,6 +116,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
+  text-align:justify;
 }
 
 .card-title, .card-text {
@@ -125,6 +126,7 @@ body {
 .bg-custom {
   background-color: #B80000;
 }
+
 
 .text-custom {
   color: white;
